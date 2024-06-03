@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>내 홈페이지</title>
+  </head>
+  <body>
+    <h1>내 홈페이지</h1>
+    <hr color="lightblue" size="5">
+    <h2>여기에 내 홈페이지가 제작될 예정</h2>
+
+    <script>
+        // 알림
+        // alert( 'Hello, world!' );
+        // 개발자 도구에서 콘솔에 출력
+        console.log("Hello, world!");
+        /*
+         여러줄
+         주석문
+         이렇게
+        */
+       // 변수
+       let name1 = "박시은" //변수 선언
+       let admin; //변수 선언
+       admin = name1; //변수값 복사?? 대입
+       // 안녕 박시은을 출력
+       // alert("안녕!" + admin); // 알림창 출력
+       // alert(`안녕!" ${admin}`); // 알림창 출력
+       // 이름 입력하세요
+       let name = prompt("이름 입력: ")
+       // 나이 입력하세요
+       let age = prompt("나이를 입력: ")
+       // 당신은 학생인가요?
+       // 확인 또는 취소
+       let isSt = confirm("당신은 학생?")
+       let st = ""; // 임시변수
+       if (!isSt) {
+        alert("너는 누구야")
+       }
+       if (age >= 8 && age <= 13) {
+        // alert("초등학생");
+        st = "초등학생";
+       } else if (age >= 14 && age <= 16) {
+        st = "중학생";
+       } else if (age >= 17 && age <= 19) {
+        st = "고등학생";
+       } else if (age >= 20) {
+        st = "대학생";
+       } else {
+        st = "응애"
+       }
+
+       // 알림 또는 콘솔에 위 정보들을 한번에 출력
+       // 이름은 OOO 나이는 00살 학생은 true 또는 false
+       // 만약에 8이상 13살이하면 초등학생
+       // 만약에 14이상에 16살 이하면 중학생
+       // 만약에 17이상 19세 이하면 고등학생
+       // 20세 이상이면 대학생이나 성인
+       // 이름은 ooo 나이는 00살 위에서 나온 초등인지 중등인지 고등인지 등등 출력하기
+
+       alert('이름은 ㅇㅇㅇ 나이는 00살 000입니다.');
+
+       let result = prompt("나이를 입력: ");
+       alert(`당신의 나이는 ${result}살 입니다.`);
+       // 만약에 15세 이상만 입장가능
+       if (result >= 15) {
+        alert("어서오십쇼");
+       } else {
+        alert("끄지라");
+       }
+       // 15세 이하는 가라
+
+       result = prompt("이름을 입력: ");
+       alert(`당신의 이름은 ${result} 입니다.`);
+       result = confirm("당신은 학생인가요?");
+       alert(result);
+       result = confirm("당신이 주인인가요?");
+       // result 의 값은? true 또는 false
+       //alert(result);
+       if (result) { //만약에 true 이면
+        alert("네 주인님, 어서오십쇼")
+       } else { //아니면
+        alert("꺼지쇼")
+       }
+
+    </script>
+      //안녕
+
+  </body>
+</html>

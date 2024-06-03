@@ -1,0 +1,24 @@
+/* 파일명 : style.css */
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.dongle-regular {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+p{
+    color: green;
+}
+
+span{
+    color: blue;
+}
+
+.space{
+    color: skyblue;
+}
+
+#aa{
+    color: red;
+}

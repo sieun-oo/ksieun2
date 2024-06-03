@@ -1,0 +1,86 @@
+/* 공통 스타일 */
+body {
+    font-family: 'Jua', Arial, sans-serif;
+}
+
+/* 메인 페이지 상단 배너 */
+header.main-header {
+    background-color: #d8b4fe; /* 연보라색 */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+/* 3D 작업물 페이지 스타일 */
+body.3d-artworks-page {
+    background-color: #ffe6eb; /* 연분홍색 */
+}
+
+header.3d-artworks-header {
+    background-color: #ff99ac; /* 분홍색 */
+    color: white;
+    padding: 40px 0; /* 상단 배너 높이 조정*/
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+/* 그림 및 일러스트 페이지 스타일 */
+body.illustrations-page {
+    background-color: #f3ffe6; /* 연한 연두색 */
+}
+
+header.illustrations-header {
+    background-color: #ccffb9; /* 연두색 */
+    color: rgb(54, 119, 61);
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+/* 이모티콘 페이지 스타일 */
+body.emojis-page {
+    background-color: #fff9e6; /* 연한 노랑색 */
+}
+
+header.emojis-header {
+    background-color: #fff0b3; /* 연노랑색 */
+    color: rgb(255, 140, 69);
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+/* 핸드메이드 제품 페이지 스타일 */
+body.handmade-page {
+    background-color: #e6f7ff; /* 연한 하늘색 */
+}
+
+header.handmade-header {
+    background-color: #99d6ff; /* 하늘색 */
+    color: rgb(42, 116, 255);
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+/* 내비게이션 바 스타일 */
+.navbar-nav .nav-link {
+    font-family: 'Jua', sans-serif; /* Jua 폰트로 변경 */
+    font-size: 1.2rem;
+}
+
+/* 프로필 사진 스타일 */
+.profile-pic {
+    border-radius: 10px; /* 모서리가 살짝 둥근 직사각형 */
+}
+
+/* 추가 스타일 */
+h1, p {
+    font-family: 'Jua', sans-serif;
+}
