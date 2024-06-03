@@ -4,10 +4,28 @@ body {
 }
 
 /* 메인 페이지 상단 배너 */
+body.main-page {
+    background-color: #fff0fe; /* 연한 연보라색 */
+}
+
 header.main-header {
     background-color: #d8b4fe; /* 연보라색 */
     color: white;
-    padding: 40px 0; /* 상단 배너 높이 조정*/
+    padding: 70px 0; /* 상단 배너 높이 조정*/
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Bagel Fat One', cursive;
+}
+
+/* 소개 페이지 스타일 */
+body.introduce-page {
+    background-color: #fbf0ff; /* 연한 연보라색 */
+}
+
+header.introduce-header {
+    background-color: #e7c6ff; /* 연보라색 */
+    color: rgb(169, 101, 211);
+    padding: 30px 0;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bagel Fat One', cursive;
