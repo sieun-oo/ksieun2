@@ -38,6 +38,42 @@
             font-size: 2em;
             margin: 50px 0;
         }
+        .scroll-button {
+            position: fixed;
+            right: 15px;
+            bottom: 10px;
+            z-index: 1000;
+        }
+        .scroll-button a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: #ff9282;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            width: 40px;
+            height: 40px;
+        }
+        .side-buttons {
+            position: fixed;
+            top: 50%;
+            right: 15px; /* 버튼 좌우 배치 위치 조절 */
+            z-index: 1000;
+            transform: translateY(-50%);
+        }
+        .side-buttons a {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #ff9282;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body class="goods-page">
@@ -96,7 +132,7 @@
         <br>      
         <br>
         <br>
-        <!-- 엽서 Section (뒷면) -->
+        <!-- 엽서 Section -->
         <div class="section-title">💌엽서💌</div>
         <div id="talisman-back-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -232,8 +268,31 @@
         
     </div>
 
+    <div class="side-buttons">
+        <a href="#sticker-carousel">스티커</a>
+        <a href="#talisman-back-carousel">엽서</a>
+        <a href="#memoji-carousel">메모지</a>
+        <a href="#talisman-front-carousel">부적카드</a>
+    </div>
+
+    <div class="scroll-button">
+        <a id="scrollToTopBtn">▲</a>
+        <a id="scrollToBottomBtn">▼</a>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // 위로 이동 버튼 클릭 시
+        document.getElementById("scrollToTopBtn").onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        // 아래로 이동 버튼 클릭 시
+        document.getElementById("scrollToBottomBtn").onclick = function() {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        };
+    </script>
 </body>
 </html>
