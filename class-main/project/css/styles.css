@@ -18,16 +18,16 @@ header.main-header {
 }
 
 /* 소개 페이지 스타일 */
-body.introduce-page {
+body.profile-page {
     background-color: #fbf0ff; /* 연한 연보라색 */
 }
 
-header.introduce-header {
+header.profile-header {
     background-color: #e7c6ff; /* 연보라색 */
     color: rgb(169, 101, 211);
     padding: 30px 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Bagel Fat One', cursive;
 }
 
@@ -41,7 +41,7 @@ header._3d-artworks-header {
     color: rgb(221, 53, 137);
     padding: 30px 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Bagel Fat One', cursive;
 }
 
@@ -55,7 +55,7 @@ header.illustrations-header {
     color: rgb(54, 119, 61);
     padding: 30px 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Bagel Fat One', cursive;
 }
 
@@ -69,7 +69,7 @@ header.illustrations2-header {
     color: rgb(54, 119, 108);
     padding: 30px 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Bagel Fat One', cursive;
 }
 
@@ -111,7 +111,7 @@ header.handmade-header {
     color: rgb(42, 116, 255);
     padding: 30px 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Bagel Fat One', cursive;
 }
 
