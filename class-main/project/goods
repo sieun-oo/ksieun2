@@ -27,46 +27,10 @@
             text-decoration: none;
             color: #00c080;
         }
-        .scroll-button {
-            position: fixed;
-            right: 15px;
-            bottom: 10px;
-            z-index: 1000;
-        }
-        .scroll-button a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10px;
-            background-color: #ff94d4;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            border-radius: 10px;
-            text-decoration: none;
-            width: 40px;
-            height: 40px;
-        }
-        .side-buttons {
-            position: fixed;
-            top: 50%;
-            right: 15px; /* 버튼 좌우 배치 위치 조절 */
-            z-index: 1000;
-            transform: translateY(-50%);
-        }
-        .side-buttons a {
-            display: block;
-            margin-bottom: 10px;
-            padding: 10px;
-            background-color: #ff94d4;
-            color: white;
-            text-align: center;
-            border-radius: 10px;
-            text-decoration: none;
-        }
     </style>
 </head>
-<body class="emojis-page">
-    <header class="emojis-header">
+<body class="goods-page">
+    <header class="goods-header">
         emoticon
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -78,17 +42,16 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="introduce.html">소개</a></li>
                 <li class="nav-item"><a class="nav-link" href="3d-artworks.html">3D 작업물</a></li>
-                <li class="nav-item"><a class="nav-link" href="illustrations.html">동물일러스트</a></li>
+                <li class="nav-item"><a class="nav-link" href="illustrations.html">동물 일러스트</a></li>
                 <li class="nav-item"><a class="nav-link" href="illustrations2.html">인물화</a></li>
                 <li class="nav-item"><a class="nav-link" href="emojis.html">이모티콘</a></li>
-                <li class="nav-item"><a class="nav-link" href="goods.html">굿즈제작</a></li>
                 <li class="nav-item"><a class="nav-link" href="handmade.html">핸드메이드</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container mt-5">
-        <h1 id="emoji-section">[ 이모티콘 ]</h1>
+        <h1>[ 이모티콘 ]</h1>
         <a href="https://ogqmarket.naver.com/artworks/sticker/detail?artworkId=5971219965a92" target="_blank" class="emoji-link">☞ 네이버 OGQ 이모티콘 보러가기 ☜</a>
         <div class="image-container">
             <img src="프로틴냥2.PNG" class="img-fluid" alt="3D Artwork 1">
@@ -100,66 +63,60 @@
         <br>      
         <br>
         <br>
+        <div class="container mt-5">
+            <h1>💄뷰티 블로거 이모티콘💄</h1>
+            <br>
+            <br>
+            <div class="row">
+                <!-- 이모티콘 첨부 및 설명 -->
+                <div class="col-md-6 offset-md-3 text-center"> <!-- 가운데 정렬을 위해 offset-md-3과 text-center 클래스 추가 -->
+                    <img src="안녕하세요르.png" class="img-fluid" alt="Portrait Illustration 1">
+                </div>
+                <div class="w-100"></div>
+                <br>      
+                <br>
+                <br>
+                <!-- 첫 번째 이미지 -->
+                <div class="col-md-4">
+                    <img src="추천.png" class="img-fluid" alt="Portrait Illustration 1">
+                </div>
+                <!-- 두 번째 이미지 -->
+                <div class="col-md-4">
+                    <img src="비추천.png" class="img-fluid" alt="Portrait Illustration 2">
+                </div>
+                <!-- 세 번째 이미지 -->
+                <div class="col-md-4">
+                    <img src="제품제공.png" class="img-fluid" alt="Portrait Illustration 3">
+                </div>
 
-        <!-- Buttons for section navigation -->
-        <div class="side-buttons">
-            <a href="#emoji-section">네이버 OGQ</a>
-            <a href="#beauty-blogger">뷰티 블로거</a>
-            <a href="#college-emojis">대학생 감자</a>
-        </div>
-    </div>
+                <div class="w-100"></div>
+                <br>
+                <br>
+                <br>
 
-    <!-- 네이버 OGQ Section -->
-    <div id="naver-ogq" class="container mt-5">
-        <h1>네이버 OGQ</h1>
-    </div>
+                <!-- 첫 번째 이미지 -->
+                <div class="col-md-4">
+                    <img src="지갑 텅텅.png" class="img-fluid" alt="Portrait Illustration 1">
+                </div>
+                <!-- 두 번째 이미지 -->
+                <div class="col-md-4">
+                    <img src="정권찌르기2.1.png" class="img-fluid" alt="Portrait Illustration 2">
+                </div>
+                <!-- 세 번째 이미지 -->
+                <div class="col-md-4">
+                    <img src="재구매.png" class="img-fluid" alt="Portrait Illustration 3">
+                </div>
+            </div>
 
-    <!-- 뷰티 블로거 Section -->
-    <div id="beauty-blogger" class="container mt-5">
-        <h1>💄뷰티 블로거 이모티콘💄</h1>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-6 offset-md-3 text-center"> <!-- 가운데 정렬을 위해 offset-md-3과 text-center 클래스 추가 -->
-                <img src="안녕하세요르.png" class="img-fluid" alt="Portrait Illustration 1">
-            </div>
-            <div class="w-100"></div>
-            <br>      
-            <br>
-            <br>
-            <div class="col-md-4">
-                <img src="추천.png" class="img-fluid" alt="Portrait Illustration 1">
-            </div>
-            <div class="col-md-4">
-                <img src="비추천.png" class="img-fluid" alt="Portrait Illustration 2">
-            </div>
-            <div class="col-md-4">
-                <img src="제품제공.png" class="img-fluid" alt="Portrait Illustration 3">
-            </div>
-            <div class="w-100"></div>
             <br>
             <br>
             <br>
-            <div class="col-md-4">
-                <img src="지갑 텅텅.png" class="img-fluid" alt="Portrait Illustration 1">
-            </div>
-            <div class="col-md-4">
-                <img src="정권찌르기2.1.png" class="img-fluid" alt="Portrait Illustration 2">
-            </div>
-            <div class="col-md-4">
-                <img src="재구매.png" class="img-fluid" alt="Portrait Illustration 3">
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+            <br>
+            <br>
+            <br>
 
-    <!-- 대학생 감자 Section -->
-    <div id="college-emojis" class="container mt-5">
-        <h1>📚대학생 이모티콘📚</h1>
+            <div class="container mt-5">
+                <h1>📚대학생 이모티콘📚</h1>
                 <br>
                 <br>
                 <div class="row">
@@ -254,49 +211,20 @@
                     <!-- 세 번째 이미지 -->
                     <div class="col-md-4">
                         <img src="감빤히.png" class="img-fluid" alt="College Emoji 7">
-                        <br>      
-                        <br>
-                        <br>
-                        <br>      
-                        <br>
-                        <br>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Scroll buttons -->
-    <div class="scroll-button">
-        <a id="scrollToTopBtn">▲</a>
-        <a id="scrollToBottomBtn">▼</a>
-    </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('#font-size').on('input', function() {
-                var fontSize = $(this).val() + 'px';
-                $('body').css('font-size', fontSize);
-            });
-
-            // 위로 이동 버튼 클릭 시
-        document.getElementById("scrollToTopBtn").onclick = function() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+        // 폰트 사이즈 조절 기능
+        document.getElementById("font-size").oninput = function() {
+            var newSize = this.value + "px";
+            document.body.style.fontSize = newSize;
         };
-
-        // 아래로 이동 버튼 클릭 시
-        document.getElementById("scrollToBottomBtn").onclick = function() {
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        };
-
-            $('.side-buttons a[href="#emoji-section"]').on('click', function(event) {
-                event.preventDefault();
-                $('html, body').scrollTop($('#emoji-section').offset().top);
-            });
-        });
     </script>
 </body>
 </html>
