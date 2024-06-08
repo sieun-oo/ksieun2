@@ -11,6 +11,7 @@
     <style>
         body {
             text-align: center; /* 모든 내용 가운데 정렬 */
+            font-family: 'Jua', sans-serif; /* 폰트 설정 */
         }
         .profile-group {
             display: flex;
@@ -18,9 +19,17 @@
             justify-content: center; /* 그룹을 수평 가운데 정렬 */
             margin-bottom: 20px; /* 그룹과 다음 요소 간의 간격 조절 */
         }
-
         .profile-pic {
-            margin-right: -160px; /* 프로필 사진과 텍스트 간의 간격 조절 */
+            margin-right: -50px; /* 프로필 사진과 텍스트 간의 간격 조절 */
+            border-radius: 7%; /* 사진을 원형으로 표시 */
+        }
+        h1 {
+            font-size: 3rem; /* 제목 폰트 크기 */
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.6rem; /* 텍스트 폰트 크기 */
+            margin: 9px 0;
         }
     </style>
 </head>
@@ -47,11 +56,11 @@
     </nav>
 
     <div class="container mt-5">
-        <div class="row">
+        <div class="row profile-group">
             <div class="col-md-5">
                 <img src="박시은 증명사진2.2.jpg" class="profile-pic img-fluid" alt="Profile Picture" width="300">
             </div>
-            <div class="col-md-7 mt-3">
+            <div class="col-md-7 mt-10">
                 <h1>박시은</h1>
                 <p>생년월일: 2000-07-31</p>
                 <p>학교: 경성대학교</p>
