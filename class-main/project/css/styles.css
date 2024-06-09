@@ -11,7 +11,7 @@ body.main-page {
 header.main-header {
     background-color: #d8b4fe; /* 연보라색 */
     color: white;
-    padding: 70px 0; /* 상단 배너 높이 조정*/
+    padding: 50px 0; /* 상단 배너 높이 조정*/
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Bagel Fat One', cursive;
