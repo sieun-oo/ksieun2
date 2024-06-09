@@ -131,9 +131,34 @@ header.handmade-header {
 /* 프로필 사진 스타일 */
 .profile-pic {
     border-radius: 10px; /* 모서리가 살짝 둥근 직사각형 */
+    max-width: 100%; /* 부모 요소의 너비에 맞게 조정 */
+    height: auto; /* 높이를 자동으로 조정 */
 }
 
 /* 추가 스타일 */
 h1, p {
     font-family: 'Jua', sans-serif;
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+    header.main-header {
+        font-size: 2rem;
+        padding: 30px 0;
+    }
+
+    header.profile-header,
+    header._3d-artworks-header,
+    header.illustrations-header,
+    header.illustrations2-header,
+    header.emojis-header,
+    header.goods-header,
+    header.handmade-header {
+        font-size: 1.5rem;
+        padding: 20px 0;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
 }
